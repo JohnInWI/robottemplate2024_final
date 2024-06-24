@@ -1,0 +1,104 @@
+/* Styles go here */
+body {
+  background: rgb(242, 234, 223)    ;
+  background-image: radial-gradient(hsla(168, 76%, 23%, 1.00) 7%, transparent 0);
+  background-size: 30px 30px;
+}
+
+
+
+.btn {
+  background-color: #4CAF50; /* Green background */
+  
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 20px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  margin-bottom: 7px;
+  margin-right: 7px;
+  width: 30%;
+  font-size:100%;
+  text-align: center;
+  
+  
+}
+
+.btn:hover {
+  background: darkgreen;
+}
+
+
+	
+		.joyarea {
+			width		: 50rem;
+			height		: 25rem; 
+      position:absolute;
+      top:0px;
+      bottom: 20px;
+			overflow	: hidden;
+			padding		: 0;
+			margin		: 20px;
+			-webkit-user-select	: none;
+			-moz-user-select	: none;
+		}
+
+    #footer {
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+ }
+
+
+ #coords { 
+  position: absolute; 
+  left: 0; 
+   /*padding: 20px 10px;*/
+  bottom: 20px; 
+  width: 50%; 
+  background-color: #fafafa; 
+  border: solid 3px #ff7347; 
+  /*font-size: 24px; */
+  text-align: center; 
+} 
+
+
+ #joybtn { 
+  position: absolute; 
+  left: 54%; 
+  /*padding: 20px 10px;*/
+ bottom: 20px; 
+  width: 40%; 
+  background-color: red; 
+  border: solid 3px #ff7347; 
+  /*font-size: 10px; */
+  text-align: center; 
+} 
+
+/* .btn:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+} */
