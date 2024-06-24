@@ -1,0 +1,182 @@
+{
+	// Place your junk workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Multiple NeoPixel": {
+		"prefix": " 3Neopixel",
+		"body": [
+		  "robotSocket.send('pixelmulti,off,60,200,300,0');//parameters:color1,color2,color3.color 4. off turn that pixel off"
+		],
+		"description": "Multiple NeoPixel"
+	  }
+	  "NeoPixels off": {
+		"prefix": " 3NeopixelsOff",
+		"body": [
+		  "robotSocket.send('pixelsOff,0,0,0,0,0');//turns all pixels off"
+		],
+		"description": "NeoPixels off"
+	  }
+
+	  "Create  a Button": {
+		"prefix": " 1CreateButton",
+		"body": [
+		  "////////////////////////////////////////////////////////",
+		  "addEventListener('load', function() {",
+		  "  var newButton = document.createElement('button');",
+		  "  //////////Change properties below////////////////",
+		  "  newButton.innerHTML = 'MyButton'; //replace with text of your button",
+		  "  newButton.onclick = function() {",
+		  "    //////////place the corrosponding function below here/",
+		  ""
+		  ""
+		  "   ////////place the corrosponding function above here/",
+		  "  };",
+		  "  newButton.style.backgroundColor = 'seagreen';",
+		  "  newButton.style.width = '30%';",
+		  "  newButton.style.borderRadius = '50px';",
+		  "  newButton.style.border = '5px outset gray';",
+		  "  ///////////Change properties above///////////",
+		  "  newButton.className = 'btn';",
+		  "  document.getElementById('Tasks').appendChild(newButton);",
+		  "});",
+		  "  ",
+		  "///////////////////////////////////////////////////////"
+		],
+		"description": "Create  a Button"
+	  }
+	  "Motor Move": {
+		"prefix": " 4MotorMove",
+		"body": [
+		  "robotSocket.send('motorMove,0,1,400,400,0'); //parameters are: left direction, right direction, left speed, right speed"
+		],
+		"description": "Motor Move"
+	  }
+
+	  "Line Follower": {
+		"prefix": " 4LineFollow",
+		"body": [
+		  "robotSocket.send('lineFollow,right,750,5000,0,0');//paramters:side of line, speed, time in ms"
+		],
+		"description": "Line Follower"
+	  }
+	  "Temp Hum Sensor": {
+		"prefix": " 7TempHum",
+		"body": [
+		  "  robotSocket.send('tempHum,0,0,0,0,0');//returns a message with temp & hum"
+		],
+		"description": "Temp Hum Sensor"
+	  }
+	  "New Function": {
+		"prefix": " 2NewFunction",
+		"body": [
+		  "",
+		  "function NameOfYourFunction()    //name your function by replacing \" NameOfYourFunction\"",
+		  "{   ",
+		  " //the code you want to execute with this function goes between these braces",
+		  " ",
+		  " ",
+		  " ",
+		  "}",
+		  ""
+		],
+		"description": "New Function"
+	  }
+	  "If Statement": {
+		"prefix": " 2IfStatement",
+		"body": [
+		  "",
+		  "",
+		  "if (condition1)  //replace condition1 with your condition",
+		  "{",
+		  "",
+		  "",
+		  "}",
+		  "else if (condition2)  //replace condition2 with your condition",
+		  "{",
+		  "",
+		  "",
+		  "}",
+		  "",
+		  "//you can copy and paste addiitonal elseIfs below",
+		  ""
+		],
+		"description": "If Statement"
+	  }
+	  "Wait": {
+		"prefix": " 2wait",
+		"body": [
+		  "",
+		  "wait(1000); //the parameter is wait time in millseconds"
+		],
+		"description": "Wait"
+	  }
+	  "Brake": {
+		"prefix": " 4Brake",
+		"body": [
+		  "robotSocket.send('brake,0,0,0,0,0'); //stops both motors",
+		  ""
+		],
+		"description": "Brake"
+	  }
+	  "For Loop": {
+		"prefix": " 2ForLoop",
+		"body": [
+		  "  ",
+		  "  //for a simple for loop, change the 10 parameter to the number of times you would like to repeat",
+		  "  for (var i=0; i <= 10; i++){ ",
+		  "     //put the code to repeat between these braces ",
+		  "      ",
+		  "      ",
+		  "   } ",
+		  "   "
+		],
+		"description": "For Loop"
+	  }
+
+	  "Smarties 1": {
+		"prefix": " 6Smarties1",
+		"body": [
+		  "smarties_1(); //this activates Smarties dispenser 1",
+		  "   "
+		],
+		"description": "Smarties 1"
+	  }
+	  "Smarties 2": {
+		"prefix": " 6Smarties2",
+		"body": [
+		  "smarties_2(); //this activates Smarties dispenser 1",
+		  "   "
+		],
+		"description": "Smarties 2"
+	  }
+	  "Lester Activate": {
+		"prefix": " 6Lester",
+		"body": [
+		  "robotSocket.send('lester,tie/0/0/0/0/0');",
+		  "   "
+		],
+		"description": "Lester Activate"
+	  }
+	  "Change Header": {
+		"prefix": " 2ChangeHeader",
+		"body": [
+		  " document.getElementById(\"myTitle\").innerHTML =\"\" ; //place new header text between quotaion marks"
+		],
+		"description": "Change Header"
+	  }
+	  
+}
