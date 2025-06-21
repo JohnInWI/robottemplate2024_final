@@ -163,13 +163,13 @@
 		],
 		"description": "Smarties 2"
 	  }
-	  "Lester Activate": {
-		"prefix": " 6Lester",
+	  "Fireworks Activate": {
+		"prefix": " 6Fireworks",
 		"body": [
 		  "robotSocket.send('lester,tie/0/0/0/0/0');",
 		  "   "
 		],
-		"description": "Lester Activate"
+		"description": "Fireworks Activate"
 	  }
 	  "Change Header": {
 		"prefix": " 2ChangeHeader",
