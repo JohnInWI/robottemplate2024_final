@@ -178,5 +178,13 @@
 		],
 		"description": "Change Header"
 	  }
+
+"Read Temp Then Email": {
+  "prefix": " 7emailTempHum",
+  "body": [
+    "tempThenTweet('text before the temp and hum'); //this will read the temp & hum then email "
+  ],
+  "description": "Read Temp Then Email"
+}
 	  
 }
