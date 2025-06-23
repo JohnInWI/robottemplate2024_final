@@ -178,7 +178,14 @@
 		],
 		"description": "Change Header"
 	  }
-
+  "Train Activate": {
+		"prefix": " 6Train",
+		"body": [
+		  "robotSocket.send('train,0,0,0,0,0');",
+		  "   "
+		],
+		"description": "Train Activate"
+	  }
 "Read Temp Then Email": {
   "prefix": " 7emailTempHum",
   "body": [
