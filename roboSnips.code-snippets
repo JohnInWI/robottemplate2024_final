@@ -147,21 +147,21 @@
 		"description": "For Loop"
 	  }
 
-	  "Smarties 1": {
-		"prefix": " 6Smarties1",
+	  "Food Truck 1": {
+		"prefix": " 6FoodTruck1",
 		"body": [
-		  "smarties_1(); //this activates Smarties dispenser 1",
+		  "smarties_1(); //this activates Food Truck dispenser 1",
 		  "   "
 		],
-		"description": "Smarties 1"
+		"description": "Food Truck  1"
 	  }
-	  "Smarties 2": {
-		"prefix": " 6Smarties2",
+	  "Food Truck 2": {
+		"prefix": " 6FoodTruck2",
 		"body": [
 		  "smarties_2(); //this activates Smarties dispenser 1",
 		  "   "
 		],
-		"description": "Smarties 2"
+		"description": "Food Truck 2"
 	  }
 	  "Fireworks Activate": {
 		"prefix": " 6Fireworks",
